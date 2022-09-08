@@ -4,8 +4,24 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="user" class="com.gullon.jopo.User">
-        <property name="name" value="gullon huan"/>
-    </bean>
+<!--    无参构造-->
+<!--    <bean id="user" class="com.gullon.jopo.User">-->
+<!--        <property name="name" value="gullon huan"/>-->
+<!--    </bean>-->
 
+<!--    有参构造 1.下标-->
+<!--    <bean id="user" class="com.gullon.jopo.User">-->
+<!--        <constructor-arg index="0" value="有参"/>-->
+<!--        <constructor-arg index="1" value="15"/>-->
+<!--        <constructor-arg index="2" value="中国湖南"/>-->
+<!--    </bean>-->
+
+<!--    第二种方法 通过类型创建，不建议使用-->
+<!--    <bean id="user" class="com.gullon.jopo.User">-->
+<!--        <constructor-arg type="java.lang.String" value="sdfasdf"/>&lt;!&ndash; 当将此句注释掉后，运行test，会走无参构造 &ndash;&gt;-->
+<!--        <constructor-arg type="java.lang.int" value="15"-->
+<!--    </bean>-->
+<!--    <bean id="user1" class="com.gullon.jopo.User">-->
+<!--        <constructor-arg type="java.lang.String" value="hadoop"/>-->
+<!--    </bean>-->
 </beans>

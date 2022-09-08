@@ -7,12 +7,19 @@
     <bean id="mysqlImpl" class="com.gullon.dao.UserDaoImplmysql"/>
     <bean id="daoImpl" class="com.gullon.dao.UserDaoImpl"/>
 
-    <bean id="UserServiceImpl" class="com.gullon.service.UserServiceImpl">
+    <bean id="mysql" class="com.gullon.service.UserServiceImpl">
         <!-- ref: 引用spring容器中创建好的对象
              value：具体的值，基本数据类型
         -->
         <property name="userDao" ref="mysqlImpl"/>
+<!--        <property name="userDao" ref="daoImpl"/>-->
+    </bean>
+
+    <bean id="moren" class="com.gullon.service.UserServiceImpl">
         <property name="userDao" ref="daoImpl"/>
+    </bean>
+    <bean id="oracle" class="com.gullon.dao.UserDdaoImplorcle">
+
     </bean>
 
 </beans>

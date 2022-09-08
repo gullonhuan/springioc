@@ -18,7 +18,7 @@ public class Mytest {
         //获取appicationcontext, 拿到spring的容器
         ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
         //容器在手，天下我有，总结get
-        UserServiceImpl userService =  (UserServiceImpl) context.getBean("UserServiceImpl");
+        UserServiceImpl userService =  (UserServiceImpl) context.getBean("mysql");
 
         userService.getUser();
     }
