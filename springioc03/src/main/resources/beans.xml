@@ -6,10 +6,17 @@
 
 <!--    无参构造-->
 <!--    <bean id="user" class="com.gullon.jopo.User">-->
+<!--        <property name="age" value="80"/>-->
 <!--        <property name="name" value="gullon huan"/>-->
 <!--    </bean>-->
+<!--    注意执行顺序，不同的顺序会有不同的执行结果 ； 并且，要设置不同的参数不同的值，需要有对应参数的set方法  -->
 
-<!--    有参构造 1.下标-->
+<!--    <bean id="user01" class="com.gullon.jopo.User">-->
+<!--        <property name="name"   value="abab"/>-->
+<!--    </bean>-->
+
+<!--    有参构造 -->
+<!--    第一种方法，下标-->
 <!--    <bean id="user" class="com.gullon.jopo.User">-->
 <!--        <constructor-arg index="0" value="有参"/>-->
 <!--        <constructor-arg index="1" value="15"/>-->
@@ -24,4 +31,15 @@
 <!--    <bean id="user1" class="com.gullon.jopo.User">-->
 <!--        <constructor-arg type="java.lang.String" value="hadoop"/>-->
 <!--    </bean>-->
+
+<!--    第三种方法，直接通过参数名来设置  -->
+    <bean id="user" class="com.gullon.jopo.User">
+        <constructor-arg name="name" value="gullon"/>
+        <constructor-arg name="add" value="湖南"/>
+        <constructor-arg name="age" value="16"/>
+    </bean>
+
+    <bean id="usert" class="com.gullon.jopo.UserT">
+
+    </bean>
 </beans>

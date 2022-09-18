@@ -12,13 +12,18 @@ public class User {
         this.name = name ;
         this.age = age;
         this.add = add ;
+        System.out.println("有参构造");
     }
 
 //    private User(int 1)
 
-
+    public void setAge(int age) {
+        name = "ldjflakhfkla";
+        this.age = age;
+    }
     public void setName(String name){
         this.name = name;
+        age = 8888 ;
     }
 
     public String getName(){
@@ -28,5 +33,7 @@ public class User {
     public void showName(){
         System.out.println("hello " + name + "!!!" + "and my age is " + age + ",my address is "+ add);
     }
+
+
 
 }
