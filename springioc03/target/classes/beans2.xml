@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--    无参构造-->
+    <!--    <bean id="user" class="com.gullon.jopo.User">-->
+    <!--        <property name="age" value="80"/>-->
+    <!--        <property name="name" value="gullon huan"/>-->
+    <!--    </bean>-->
+    <!--    注意执行顺序，不同的顺序会有不同的执行结果 ； 并且，要设置不同的参数不同的值，需要有对应参数的set方法  -->
+
+    <!--    <bean id="user01" class="com.gullon.jopo.User">-->
+    <!--        <property name="name"   value="abab"/>-->
+    <!--    </bean>-->
+
+    <!--    有参构造 -->
+    <!--    第一种方法，下标-->
+    <!--    <bean id="user" class="com.gullon.jopo.User">-->
+    <!--        <constructor-arg index="0" value="有参"/>-->
+    <!--        <constructor-arg index="1" value="15"/>-->
+    <!--        <constructor-arg index="2" value="中国湖南"/>-->
+    <!--    </bean>-->
+
+    <!--    第二种方法 通过类型创建，不建议使用-->
+    <!--    <bean id="user" class="com.gullon.jopo.User">-->
+    <!--        <constructor-arg type="java.lang.String" value="sdfasdf"/>&lt;!&ndash; 当将此句注释掉后，运行test，会走无参构造 &ndash;&gt;-->
+    <!--        <constructor-arg type="java.lang.int" value="15"-->
+    <!--    </bean>-->
+    <!--    <bean id="user1" class="com.gullon.jopo.User">-->
+    <!--        <constructor-arg type="java.lang.String" value="hadoop"/>-->
+    <!--    </bean>-->
+
+    <!--    第三种方法，直接通过参数名来设置  -->
+    <bean id="user" class="com.gullon.jopo.User">
+        <constructor-arg name="name" value="gullon"/>
+        <constructor-arg name="add" value="湖南"/>
+        <constructor-arg name="age" value="16"/>
+    </bean>
+
+    <bean id="usert" class="com.gullon.jopo.UserT">
+    </bean>
+
+    <!-- 别名，如果添加了别名，我们也可以使用别名进行调用-->
+    <alias name="user" alias="us"/>
+
+    <!--    id 唯一标识符
+        class bean对象所对应的全限定名（包名+类型）
+        name 也是别名，而且name 可以同时取多个别名 逗号 空格 分号都可以用来分隔
+        -->
+    <bean id="userT" class="com.gullon.jopo.UserT" name="ut,u2 u3;u4">
+        <property name="name" value="gullon"/>
+    </bean>
+
+</beans>

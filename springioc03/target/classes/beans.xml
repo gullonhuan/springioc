@@ -40,6 +40,17 @@
     </bean>
 
     <bean id="usert" class="com.gullon.jopo.UserT">
-
     </bean>
+
+    <!-- 别名，如果添加了别名，我们也可以使用别名进行调用-->
+    <alias name="user" alias="us"/>
+
+    <!--    id 唯一标识符
+        class bean对象所对应的全限定名（包名+类型）
+        name 也是别名，而且name 可以同时取多个别名 逗号 空格 分号都可以用来分隔
+        -->
+    <bean id="userT" class="com.gullon.jopo.UserT" name="ut,u2 u3;u4">
+            <property name="name" value="gullon"/>
+    </bean>
+
 </beans>
