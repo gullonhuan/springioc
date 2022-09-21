@@ -13,6 +13,9 @@
         <module>springioc02</module>
         <module>springioc03</module>
         <module>springio04-di</module>
+        <module>springioc-factory</module>
+        <module>autowire</module>
+        <module>zhujie</module>
     </modules>
 
     <properties>

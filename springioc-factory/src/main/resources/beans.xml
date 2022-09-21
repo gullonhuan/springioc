@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    <bean id="OrderDao" class="com.gullon.Factory.orderDaoFactory" factory-method="getOrderDao"></bean>-->
+
+<!--    工厂类的bean操作-->
+<!--    <bean id="userDaoFactory" class="com.gullon.Factory.UserDaoFactory"/>-->
+<!--    <bean id="userDao" factory-bean="userDaoFactory" factory-method="getuserdao"/>-->
+
+    <bean id="userDao" class="com.gullon.Impl.UserDaoImpl" init-method="init" destroy-method="destory" autowire="byType">
+        <property name="name" value="gullon"/>
+    </bean>
+</beans>
