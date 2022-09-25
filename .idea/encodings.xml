@@ -3,6 +3,14 @@
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/autowire/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/autowire/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spirng07-appconfig/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spirng07-appconfig/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring06-anno/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring06-anno/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring08proxy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring08proxy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring11AOP/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring11AOP/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springio04-di/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springio04-di/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springioc-factory/src/main/java" charset="UTF-8" />

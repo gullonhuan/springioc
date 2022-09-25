@@ -20,3 +20,7 @@ from
   - Autowired不能唯一装配上属性，则需要通过@Qualifier(value="..")
 - @Resource : 自动装配通过名字、类型
 - @Nullable : 字段标记了这个注解，说明这个字段可以允许为null
+
+
+- @Component : 将类托管到spring，实现简单类的自动成bean
+- 

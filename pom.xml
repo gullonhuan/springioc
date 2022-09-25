@@ -16,6 +16,10 @@
         <module>springioc-factory</module>
         <module>autowire</module>
         <module>zhujie</module>
+        <module>spring06-anno</module>
+        <module>spirng07-appconfig</module>
+        <module>spring08proxy</module>
+        <module>spring11AOP</module>
     </modules>
 
     <properties>

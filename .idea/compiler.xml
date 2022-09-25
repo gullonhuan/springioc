@@ -7,12 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="zhujie" />
+        <module name="spirng07-appconfig" />
         <module name="springioc-factory" />
         <module name="autowire" />
+        <module name="spring11AOP" />
         <module name="springio04-di" />
         <module name="springioc02" />
+        <module name="spring06-anno" />
         <module name="springioc03" />
         <module name="springioc01" />
+        <module name="spring08proxy" />
       </profile>
     </annotationProcessing>
   </component>
