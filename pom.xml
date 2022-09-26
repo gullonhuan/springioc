@@ -20,6 +20,8 @@
         <module>spirng07-appconfig</module>
         <module>spring08proxy</module>
         <module>spring11AOP</module>
+        <module>Reflection</module>
+        <module>spring10-mabatis</module>
     </modules>
 
     <properties>

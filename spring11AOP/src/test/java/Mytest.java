@@ -10,5 +10,6 @@ public class Mytest {
         //UserServiceImpl userService = context.getBean("userService", UserServiceImpl.class);
         UserService userService = context.getBean("userService",UserService.class);
         userService.del();
+        userService.add();
     }
 }

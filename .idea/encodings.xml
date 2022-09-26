@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/Reflection/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Reflection/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/autowire/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/autowire/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spirng07-appconfig/src/main/java" charset="UTF-8" />
@@ -9,6 +11,8 @@
     <file url="file://$PROJECT_DIR$/spring06-anno/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring08proxy/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring08proxy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring10-mabatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring10-mabatis/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring11AOP/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring11AOP/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springio04-di/src/main/java" charset="UTF-8" />
